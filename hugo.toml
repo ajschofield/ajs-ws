@@ -1,0 +1,18 @@
+baseURL = 'https://ajschof.me/'
+locale = 'en-gb'
+title = 'alex schofield - dev'
+theme = 'nostyleplease'
+enableRobotsTXT = true
+
+[params]
+favicon = 'favicon.ico'
+description = 'alex schofield - personal website & blog'
+author = 'alex schofield'
+
+[params.theme_config]
+date_format = "02/01/2006"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true # Allows HTML inside Markdown if needed

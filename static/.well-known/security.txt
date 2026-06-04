@@ -1,0 +1,3 @@
+Contact: mailto:alex@ajschof.me
+Encryption: https://ajschof.me/alex.asc
+Canonical: https://ajschof.me/.well-known/security.txt

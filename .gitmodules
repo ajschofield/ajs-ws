@@ -1,0 +1,3 @@
+[submodule "themes/nostyleplease"]
+	path = themes/nostyleplease
+	url = ssh://git.ajschof.me:ajs-nostyleplease.git

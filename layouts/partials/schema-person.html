@@ -1,0 +1,18 @@
+{{- $personSchema := dict
+"@context" "https://schema.org"
+"@type" "Person"
+"name" (default "Alex Schofield" .Site.Params.author)
+"url" .Site.BaseURL
+"email" "mailto:alex@ajschof.me"
+"sameAs" (slice "https://github.com/ajschof" "https://git.ajschof.me" "https://codeberg.org/ajschofield"
+"https://linkedin.com/in/aj-schofield")
+"knowsAbout" (slice "Software Development" "DevOps Infrastructure" "Data Engineering")
+"identifier" (dict
+"@type" "PropertyValue"
+"name" "OpenPGP Fingerprint"
+"value" "EC9559E9BA74C9CDA29847B2A6570806A7108E60"
+)
+-}}
+<script type="application/ld+json">
+{{ $personSchema | jsonify (dict "indent" "  ") | safeJS }}
+</script>
