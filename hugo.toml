@@ -6,7 +6,7 @@ enableRobotsTXT = true
 
 [params]
 favicon = 'favicon.ico'
-description = 'alex schofield - personal website & blog'
+description = 'alex schofield - data engineer'
 author = 'alex schofield'
 
 [params.theme_config]
