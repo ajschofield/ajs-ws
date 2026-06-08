@@ -2,11 +2,13 @@
 {{ partial "back_link.html" .}}
 
 <article>
+    {{ if not .Params.hide_date }}
     <p class="post-meta">
         <time datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format }}
         </time>
     </p>
+    {{ end }}
 
     <h1>{{ .Title }}</h1>
 
