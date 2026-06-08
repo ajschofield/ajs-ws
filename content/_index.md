@@ -1,7 +1,7 @@
 ---
 title: "home"
-description: "trained data engineer. currently working part-time as a system administrator for a small company."
+description: "data engineer with experience in aws etl pipelines and client-commissioned solutions."
 draft: false
 ---
 
-northcoders trained data engineer. currently working part-time as a system administrator for a small company.
+data engineer with experience delivering client-commissioned solutions and building production-grade etl pipelines on aws. northcoders bootcamp graduate (2024), with active independent projects. looking for roles across data, cloud, and software engineering.
