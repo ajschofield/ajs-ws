@@ -18,7 +18,7 @@ bootcamp.
 built in Python and deployed on AWS, it implements
 a fully automated pipeline that extracts data from a PostgreSQL
 operational database on a 30-minute schedule. this data is
-scheduled in S3 as CSV, transforms it into a star schema
+staged in S3 as CSV, transforms it into a star schema
 (dimension and fact tables) stored in a Parquet format, and
 then loaded into a data warehouse. it runs entirely on AWS Lambda
 functions triggered by EventBridge and S3 event notifications, with
@@ -52,7 +52,7 @@ Terraform used for easy deployment.
 [[src]](https://github.com/ajschofield/de-project-bentley)
 [[video]](https://vimeo.com/1149980207)
 
-Please see [above](#nc-de-totesys-solo) for project description.
+please see [above](#nc-de-totesys-solo) for project description.
 
 ## gdpr-obfuscator
 [[src]](https://github.com/ajschofield/gdpr-obfuscator)
